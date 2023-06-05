@@ -1,0 +1,24 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: titan-docs-virtual-service
+  namespace: {{ .Values.namespace }}
+spec:
+  hosts:
+  - {{ .Values.hostname }}
+  gateways:
+  - istio-system/service-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /
+    route:
+    - destination:
+        host: titan-docs-service
+        port:
+          number: 8080
+    headers:
+      request:
+        set:
+          x-forwarded-proto: https
+          x-forwarded-port: "443"
