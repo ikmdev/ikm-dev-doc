@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: titan-docs-service
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: titan-docs
+spec:
+  ports:
+  - name:
+    protocol: TCP
+    port: 8080
+    targetPort: 3000
+  selector:
+    app: titan-docs
+  type: ClusterIP

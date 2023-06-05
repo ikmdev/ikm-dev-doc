@@ -1,0 +1,23 @@
+# DNS hostname to access service at
+hostname: ikm-dev-doc.build.tinkarbuild.com
+namespace: ikm-dev-doc
+# kubectl create secret docker-registry regcred --docker-server=<docker registry> --docker-username=admin --docker-password=<password>
+image: docker.build.tinkarbuild.com/repository/docker-internal/ikm-dev-doc:latest
+resources:
+  requests:
+    memory: "50Mi"
+    cpu: "25m"
+  limits:
+    memory: "200Mi"
+    cpu: "100m"
+secrets:
+  # 'aws' or 'vault'
+  manager: vault
+  regCred:
+    # enabled to create secret for admin password
+    enabled: true # if enabled, change image to full URL to image
+    # if manager == vault, path to secret: '/kv/data/my-secret'
+    # if manager == aws, name of aws secret 'my-aws-secret'
+    path: "kv/data/build/nexus/admin/password"
+    # json key with value to inject
+    key: <password>

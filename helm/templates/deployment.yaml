@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: titan-docs
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: titan-docs
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: titan-docs
+  template:
+    metadata:
+      labels:
+        app: titan-docs
+    spec:
+      containers:
+      - name: titan-docs
+        image: {{ .Values.image }}
+        resources:
+          requests:
+            memory: {{ .Values.resources.requests.memory | quote }}
+            cpu: {{ .Values.resources.limits.cpu | quote }}
+          limits:
+            memory: {{ .Values.resources.limits.memory | quote }}
+            cpu: {{ .Values.resources.limits.cpu | quote }}
+        ports:
+        - name: http
+          containerPort: 3000
+      imagePullSecrets:
+      - name: regcred
+      
