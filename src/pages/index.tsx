@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/about">
             Learn More
           </Link>
         </div>
@@ -37,8 +37,9 @@ export default function Home(): JSX.Element {
             <div className="row">
               <img src={kometLogo2} style={{ width: "350px"}}/>
               <div className="col">
-                <p style={{ fontWeight: "bold" }}>Komet is not your traditional healthcare data tool.</p>
-                <p>Komet aims to integrate disparate medical terminologies into one, centralized location and is tailored for a wide spectrum of clinical decision-support functionalities—from documentation and reporting to medication identification.</p> 
+                <p style={{ fontWeight: "bold" }}>Komet is an open-source healthcare data tool.</p>
+                <p>It is a community-driven, standards-based Integrated Development Environment &#40;IDE&#41; for knowledge management.</p>
+                <p>Our aim is to integrate disparate medical terminologies into one, centralized location to tailor to a wide spectrum of clinical decision-support functionalities—from documentation and reporting to medication identification.</p>
               </div>
             </div>
           </div>

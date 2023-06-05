@@ -40,13 +40,13 @@ const config = {
           //editUrl:
             //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        //blog: {
+        // blog: {
         //  showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl:
+          // editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        //},
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -64,8 +64,16 @@ const config = {
           src: 'img/komet_logo.png',
         },
         items: [
-          {to: '/about', label: 'About', position: 'left'},
-          {to: '/install', label: 'Install', position: 'left'},
+          {
+            // type: 'blog',
+            to: '/about',
+            label: 'About',
+            position: 'left'
+          },
+          {
+            to: '/install',
+            label: 'Install',
+            position: 'left'},
           {
             type: 'doc',
             docId: 'intro',
@@ -101,7 +109,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Deloitte & Touche`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,

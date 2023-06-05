@@ -1,12 +1,12 @@
-# FROM node:18-alpine
-# WORKDIR /home/node/app
-# COPY --chown=node:node . .
-# RUN yarn install --production=true
+FROM node:18-alpine
+WORKDIR /home/node/app
+COPY --chown=node:node . .
+RUN yarn install --production=true
 
-# EXPOSE 3000
-# RUN yarn run build
+EXPOSE 3000
+RUN yarn run build
 
-# # remove development dependencies
-# RUN npm prune --omit=dev
+# remove development dependencies
+RUN npm prune --omit=dev
 
-# ENTRYPOINT ["yarn", "run", "serve"]
+ENTRYPOINT ["yarn", "run", "serve"]
