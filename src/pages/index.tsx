@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/about">
+            to="/platform">
             Learn More
           </Link>
         </div>
@@ -28,7 +28,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
-      <Layout    
+      <Layout
         title={`${siteConfig.title}`}
         description="Bringing Integrated Knowledge Management to Life">
         <HomepageHeader />
