@@ -53,25 +53,26 @@ repos:
   hooks:
     - id: remove-tabs
 
-# checks that your markdown is valid
-- repo: https://github.com/markdownlint/markdownlint
-  rev: v0.11.0
+  # checks that your markdown
+- repo: https://github.com/jackdewinter/pymarkdown.git
+  rev: v0.9.8
   hooks:
-    - id: markdownlint
+    - id: pymarkdown
       description: ensure markdown meets format requirements
       stages:
         - manual
-      args: [--style=build-tools/markdownlint-style.rb, -i]
-      exclude: ^.github/
+      args: ['--config', 'build-tools/markdownlint-style.json', 'scan']
+      exclude: "$^.docusaurus|.github"
 
 # spellchecker
 - repo: https://github.com/codespell-project/codespell.git
-  rev: v2.1.0
+  rev: v2.2.4
   hooks:
     - id: codespell
       stages:
         - manual
       name: codespell
+      args: ["-I", ".codespellignore.txt"] # Add ignored words to extended dictionary
       types: [text]
       exclude: "$^.docusaurus|node_modules|.github|package.*.json|yarn.lock|.gitignore|.gitattributes|.js|.html|.css|.svg"
 
@@ -82,7 +83,7 @@ repos:
       name: yarn-build
       stages:
         - manual
-      entry: bash -c 'yarn build'
+      entry: bash -c 'yarn install && yarn build'
       language: system
       pass_filenames: false
 
