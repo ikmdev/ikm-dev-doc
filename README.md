@@ -1,6 +1,8 @@
 # Integrated Knowledge Management (IKM) Development Documentation Site
 
-This website is built using [Docusaurus 2](https://docusaurus.io/)
+This is the repository that drives the website at [ikm.dev](https://www.ikm.dev). This site was created to 
+be the development documentation site, defining installation, usage, and enterprise integration of the products
+for Komet.  This website is built using [Docusaurus 2](https://docusaurus.io/).
 
 ## Running the app
 
