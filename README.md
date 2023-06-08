@@ -1,10 +1,8 @@
-# GPS - Titan and Microspeed
+# Integrated Knowledge Management (IKM) Development Documentation Site
 
-![Logo](static/img/gps_garage_logo.png)
-
-Initial documentation website for gps garage Titan team.
-
-This website is built using [Docusaurus 2](https://docusaurus.io/)
+This is the repository that drives the website at [ikm.dev](https://www.ikm.dev). This site was created to 
+be the development documentation site, defining installation, usage, and enterprise integration of the products
+for Komet.  This website is built using [Docusaurus 2](https://docusaurus.io/).
 
 ## Running the app
 
@@ -12,9 +10,9 @@ This website is built using [Docusaurus 2](https://docusaurus.io/)
 
 * Install [NodeJS](https://nodejs.org)
 * Install [YARN Package Manager](https://yarnpkg.com/getting-started/install)
-* Install [Precommit](https://pre-commit.com/#install)
+* Install [pre-commit](https://pre-commit.com/#install)
 
-## Installation`
+## Installation
 
 To install the dependencies on your local computer, just run the following:
 
@@ -112,12 +110,12 @@ github actions in the 'build-docusaurus.yaml' file.
 Occasionally, you'll want to update your dependencies.  Especially if there is a security warning.  To do this, follow
 [this guide][3]
 
-[1]: <https://medium.com/shell-life/convert-images-for-web-using-the-sips-command-line-on-macosx-656c502a67a6>
-[2]: <https://ss64.com/osx/sips.html>
-[3]: <https://www.mend.io/free-developer-tools/blog/yarn-update/>
-
 ## Building the image
 
 At the root of this repository is a Jenkinsfile that will build and push an image of the site to
 your Jenkins instance's default nexus registry. The repository `swf-titan-docs` contains a helm chart
 that can subsequently deploy the image to Kubernetes.
+
+[1]: <https://medium.com/shell-life/convert-images-for-web-using-the-sips-command-line-on-macosx-656c502a67a6>
+[2]: <https://ss64.com/osx/sips.html>
+[3]: <https://www.mend.io/free-developer-tools/blog/yarn-update/>

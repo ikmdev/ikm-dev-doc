@@ -5,8 +5,9 @@ title: ""
 labels: bug
 assignees: ""
 ---
+# Bug Report
 
-### Description
+## Description
 
 Please consult the the contributing guide found [here](../../CONTRIBUTING.md) on
 code conventions and branching if providing source.
