@@ -66,8 +66,8 @@ const config = {
         items: [
           {
             // type: 'blog',
-            to: '/about',
-            label: 'About',
+            to: '/platform',
+            label: 'Platform',
             position: 'left'
           },
           {
@@ -85,7 +85,7 @@ const config = {
           //  label: 'GitHub',
           //  position: 'right',
           // },
-          
+
         ],
       },
       footer: {
@@ -95,8 +95,8 @@ const config = {
             title: ' ',
             items: [
               {
-                label: 'About',
-                to: '/about',
+                label: 'Platform',
+                to: '/platform',
               },
               {
                 label: 'Install',
