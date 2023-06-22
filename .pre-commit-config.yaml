@@ -19,76 +19,27 @@
 
 default_language_version:
   python: python3
-
+  
+default_install_hook_types:
+  - pre-commit
+  - prepare-commit-msg      
+  
 repos:
 # Various Built-in Checks
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v3.3.0
   hooks:
-    # - id: check-yaml
-    #   description: ensure that yaml is in good shape
-    #   stages:
-    #     - manual
-    - id: check-added-large-files
-      description: ensure that nobody is checking in big files
-      args: ['--maxkb=1024']
-      stages:
-        - commit
-        - manual
-    - id: check-executables-have-shebangs
-      description: ensure that executables have "!#" commands
-      stages:
-        - manual
-    - id: mixed-line-ending
-      description: fix line endings automatically (if possible)
-    - id: trailing-whitespace
-      description: remove trailing whitespace
     - id: no-commit-to-branch
       description: only commit to allowed branches
-      args: ['--pattern', '^(?!(((feature|hotfix|bugfix))\/[A-Z]{2,}-\d+(-[0-9A-Za-z\-]*)*)|main|prod|master|dev).*$']
+      args: ['--pattern', '^(?!(((feature|hotfix|bugfix))\/IKM-\d+(-[0-9A-Za-z\-]*)*)|main|prod|master|dev).*$']
+      stages: [pre-commit]
 
-# Replace Tabs with Spaces
-- repo: https://github.com/Lucas-C/pre-commit-hooks
-  rev: v1.2.0
-  hooks:
-    - id: remove-tabs
-
-  # checks that your markdown
-- repo: https://github.com/jackdewinter/pymarkdown.git
-  rev: v0.9.8
-  hooks:
-    - id: pymarkdown
-      description: ensure markdown meets format requirements
-      stages:
-        - manual
-      args: ['--config', 'build-tools/markdownlint-style.json', 'scan']
-      exclude: "$^.docusaurus|.github"
-
-# spellchecker
-- repo: https://github.com/codespell-project/codespell.git
-  rev: v2.2.4
-  hooks:
-    - id: codespell
-      stages:
-        - manual
-      name: codespell
-      args: ["-I", ".codespellignore.txt"] # Add ignored words to extended dictionary
-      types: [text]
-      exclude: "$^.docusaurus|node_modules|.github|package.*.json|yarn.lock|.gitignore|.gitattributes|.js|.html|.css|.svg"
-
-# Build for links
-- repo: local
-  hooks:
-    - id: yarn-build
-      name: yarn-build
-      stages:
-        - manual
-      entry: bash -c 'yarn install && yarn build'
-      language: system
-      pass_filenames: false
-
-# Jira Ticket Link Prepender
+# Jira Ticket Link Prepender     
 - repo: https://github.com/jlgrock/prepend-jira-ticket-number
   rev: v0.2.0
   hooks:
     - id: prepend-jira-ticket-number
+      description: Appends ticket number and link below commit message based on the branch name
+      stages: [prepare-commit-msg]
+
+
