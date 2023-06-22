@@ -28,3 +28,43 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+nav {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar__items {
+  align-items: stretch;
+}
+
+.navbar__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__item:hover, .navbar__link--active, .menu__link:hover {
+  background-color: #33925d;
+  color: white;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .featureBanner {
+    width: 80%;
+  }
+
+  a.navbar__item {
+    display: none;
+  }
+
+  .navbar__toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

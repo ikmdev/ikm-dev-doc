@@ -18,12 +18,6 @@ html, body {
   text-align: right;
 }
 
-/* To hide dark mode toggle element, but warning to watch other elements that may have the same class. */
-[class*="toggle_-yarn-"] {
-  display: none;
-}
-
-
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
