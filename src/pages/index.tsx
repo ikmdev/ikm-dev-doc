@@ -42,6 +42,38 @@ export default function Home(): JSX.Element {
                 <p>Our aim is to integrate disparate medical terminologies into one, centralized location to tailor to a wide spectrum of clinical decision-support functionalities—from documentation and reporting to medication identification.</p>
               </div>
             </div>
+            <hr></hr>
+            <div>
+              <p style={{ fontWeight: "bold" }}>Where integration of quality data meets quality healthcare outcomes.</p>
+              <p style={{ fontWeight: "bold" }}>“Creating a more integrated future for healthcare.”</p>
+              <ul>
+                <li>Creating a healthcare Knowledge Management ecosystem that will harmonize existing knowledge standards.</li>
+                <li>Improving healthcare data quality that will aid in the downstream accuracy of patient treatments and public health decisions.</li>
+                <li>Providing an easy way to browse the wide range of clinical concepts and relationships represented in standardized medical terminologies.</li>
+                <li>Developing a collaborative space for individuals to build on the work of others for creative, adaptive solutions.</li>
+              </ul>
+            </div>
+            <hr></hr>
+            <div>
+              <p style={{ fontWeight: "bold", fontStyle: "italic", textAlign: "center" }}>What is Integrated Knowledge Management?</p>
+              <p style={{ fontStyle: "italic", textAlign: "center", width: "60%", margin: "auto" }}>“The discipline of bringing all knowledge resources into a unified paradigm where the resources all share a common underlying representation that integrates version control, configuration management, modularity, concept-oriented representation, and standardized viewing, collaborative editing, and extension development capabilities within a shared knowledge-management environment.” - Komet Founder, Keith E. Campbell, MD, PhD</p>
+            </div>
+            <hr></hr>
+            <div>
+              <p style={{ fontWeight: "bold" }}>Our IKM Platform</p>
+              <ul>
+                <li>Provides a space for healthcare knowledge to be managed in one centralized area</li>
+                <li>Allows for knowledge management at the healthcare ecosystem level, rather than at the individual organization level</li>
+                <li>Enables collaboration from knowledge experts across the ecosystem </li>
+              </ul>
+              <p style={{ fontWeight: "bold", fontStyle: "italic", textAlign: "center", width: "60%", margin: "auto" }}>“Built by you, for you” – “Bringing Integrated Knowledge Management to Life”</p>
+            </div>
+            <hr></hr>
+            <div>
+              <p style={{ fontWeight: "bold" }}>Our Tool – Komet</p>
+              <p>Built to allow for viewing, creation, editing, analysis, and retirement of knowledge housed in the IKM Platform, Komet allows users to interact with disparate healthcare terminologies (SNOMED, RxNorm, LOINC) in a central location.</p>
+              <p style={{ fontWeight: "bold", fontStyle: "italic" }}>Learn more and Install Komet</p>
+            </div>
           </div>
         </main>
       </Layout>
