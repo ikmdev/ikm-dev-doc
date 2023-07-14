@@ -34,7 +34,7 @@ export default function Home(): JSX.Element {
         <HomepageHeader />
         <main>
           <div className={clsx("container", styles.featureBanner)} style={{ padding: "3rem 0" }}>
-            <div className="row">
+            {/* <div className="row">
               <img src={kometLogo2} style={{ width: "350px"}}/>
               <div className="col">
                 <p style={{ fontWeight: "bold" }}>Komet is an open-source healthcare data tool.</p>
@@ -42,7 +42,7 @@ export default function Home(): JSX.Element {
                 <p>Our aim is to integrate disparate medical terminologies into one, centralized location to tailor to a wide spectrum of clinical decision-support functionalities—from documentation and reporting to medication identification.</p>
               </div>
             </div>
-            <hr></hr>
+            <hr></hr> */}
             <div>
               <p style={{ fontWeight: "bold" }}>Where integration of quality data meets quality healthcare outcomes.</p>
               <p style={{ fontWeight: "bold" }}>“Creating a more integrated future for healthcare.”</p>
