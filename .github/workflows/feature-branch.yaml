@@ -2,7 +2,7 @@ name: Feature Branch Build
 
 on:
   push:
-    branches:
+    branches-ignore:
       - main
 
 jobs:
