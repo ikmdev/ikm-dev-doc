@@ -1,0 +1,20 @@
+name: Main Branch Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - id: build-site
+        name: Build Site with Code Quality
+        uses: ikmdev/yarn-code-quality-build-action@main
+      - id: deploy-site
+        name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build

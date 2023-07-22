@@ -1,0 +1,14 @@
+name: Feature Branch Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - id: build-site
+        name: Build Site with Code Quality
+        uses: actions/yarn-code-quality-build-action@main
