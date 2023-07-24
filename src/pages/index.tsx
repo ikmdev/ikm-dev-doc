@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import kometLogo2 from './../../static/img/komet_logo_2.png';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
