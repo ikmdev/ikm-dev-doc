@@ -80,6 +80,10 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {
+            to: '/about',
+            label: 'About',
+            position: 'left'},
           // {
           //  href: 'https://github.com/facebook/docusaurus',
           //  label: 'GitHub',
@@ -109,6 +113,10 @@ const config = {
               {
                 label: 'Docs',
                 to: '/docs/intro',
+              },
+              {
+                label: 'About',
+                to: '/about'
               },
             ],
           },
