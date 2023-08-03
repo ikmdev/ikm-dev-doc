@@ -7,15 +7,131 @@ html, body {
   height: 100%;
 }
 
-.heroBanner {
-  max-height: 750px;
+.topBanner {
+  max-height: 200px;
   padding: 10rem 0;
   background-color: transparent;
-  background-image: url('../../static/img/komet_banner.png');
+  background-image: url('/img/landingpage_banner_main.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+}
+
+.topBannerDownArrow {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: url("/img/landingpage_topbanner_arrow_down.png");
+  width: 40px;
+}
+
+.topBannerDownArrow:hover {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: url("/img/landingpage_topbanner_arrow_down_glow.png");
+  width: 60px;
+}
+
+.featureImage {
+  width: auto;
+  max-height: 128px;
+  margin: 0 auto;
+}
+
+.featureHeading {
+  font-size: var(--ifm-h3-font-size);
+  padding-top: 1rem;
+}
+
+.featuresContainerText {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.quoteBanner {
+  background-color: transparent;
+  background-image: url('/img/landingpage_background_blue.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.quoteBannerContainer,
+.installBannerContainer {
+  max-width: 600px;
+  align-items: right;
+  margin-left: auto;
+}
+
+.quoteBannerTitle,
+.installBannerTitle {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.quoteBannerBody {
+  font-style: italic;
+}
+
+.quoteBannerAuthorContainer {
   text-align: right;
+}
+
+.quoteBannerAuthorName {
+  display: inline-block;
+  text-align: right;
+  font-weight: bold;
+}
+
+.platformBannerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 0 2rem 0;
+}
+
+.platformBannerItem {
+  flex: 1;
+}
+
+.platformBannerItemTitle {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.platformBannerListItem {
+  margin: 0;
+	padding: 12px 30px;
+	list-style: none;
+	background-image: url("/img/landingpage_platform_arrow.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 12px;
+  font-weight: bold;
+}
+
+.platformBannerQuote {
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  color: #223746;
+  margin-bottom: 20px;
+}
+
+.installBanner {
+  background-color: transparent;
+  background-image: url('/img/landingpage_background_green.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 @media screen and (max-width: 996px) {
@@ -26,6 +142,11 @@ html, body {
   .featureBanner {
     width: 80%;
   }
+
+  .platformBannerContainer {
+    flex-direction: column-reverse;
+  }
+
 }
 
 .buttons {

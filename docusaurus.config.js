@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/komet_logo.png',
+  favicon: 'img/komet_logo.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -61,11 +61,10 @@ const config = {
         title: 'Komet',
         logo: {
           alt: 'Komet Logo',
-          src: 'img/komet_logo.png',
+          src: 'img/komet_logo.svg',
         },
         items: [
           {
-            // type: 'blog',
             to: '/platform',
             label: 'Platform',
             position: 'left'
@@ -84,12 +83,6 @@ const config = {
             to: '/about',
             label: 'About',
             position: 'left'},
-          // {
-          //  href: 'https://github.com/facebook/docusaurus',
-          //  label: 'GitHub',
-          //  position: 'right',
-          // },
-
         ],
       },
       colorMode: {
