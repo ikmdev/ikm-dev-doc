@@ -121,7 +121,7 @@ function PlatformBanner() {
             textAlign: "center"
             }}>
             <p className={clsx(styles.platformBannerQuote)}>Built by you, for you</p>
-            <img src={useBaseUrl("img/landingpage_platform.png")} alt="Image of Integrated Knowledge Management (IKM) Platform" style={{maxWidth: "300px"}}></img>
+            <img src={useBaseUrl("img/landingpage_platform_graphic.png")} alt="Image of Integrated Knowledge Management (IKM) Platform" style={{maxWidth: "300px"}}></img>
           </div>
           
         </div>

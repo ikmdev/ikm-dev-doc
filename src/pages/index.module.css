@@ -11,8 +11,7 @@ html, body {
   max-height: 200px;
   padding: 10rem 0;
   background-color: transparent;
-  background-image: url('/img/landingpage_banner_main.png');
-  background-position: center;
+  background-image: url('/img/landingpage_banner_main.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -57,10 +56,10 @@ html, body {
 
 .quoteBanner {
   background-color: transparent;
-  background-image: url('/img/landingpage_background_blue.png');
-  background-position: center;
+  background-image: url('/img/landingpage_banner_dots_1.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #1f89de;
   background-attachment: fixed;
 }
 
@@ -127,10 +126,10 @@ html, body {
 
 .installBanner {
   background-color: transparent;
-  background-image: url('/img/landingpage_background_green.png');
-  background-position: center;
+  background-image: url('/img/landingpage_banner_dots_2.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #29ba99;
   background-attachment: fixed;
 }
 
