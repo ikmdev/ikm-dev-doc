@@ -8,8 +8,8 @@ pipeline {
     NEXUS_CREDENTIALS   = credentials('nexus_user')
     IMAGE_NAME          = 'ikm-dev-doc'
     WEBHOOK_URL         = "${GLOBAL_CHATOPS_URL}"
-    AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
-    AWS_SECRET_ACCESS_KEY_ID = credentials('AWS_SECRET_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = credentials('aws_secret_access_key')
+    AWS_SECRET_ACCESS_KEY_ID = credentials('aws_access_key_id')
   }
 
   options {
@@ -60,14 +60,14 @@ pipeline {
   post {
     // Notify chat ops channel
     success {
-      office365ConnectorSend webhookUrl: "${WEBHOOK_URL}",
+      office365ConnectorSend webhookUrl: "${env.WEBHOOK_URL}",
         factDefinitions: [
           [name: 'Status', template: 'Pipeline Success']
         ],
         message: "Finished ${env.JOB_NAME} ${env.BUILD_NUMBER} (<${env.BUILD_URL}>) Commit Message: ${env.GIT_COMMIT_MSG}"
     }
     failure {
-      office365ConnectorSend webhookUrl: "${WEBHOOK_URL}",
+      office365ConnectorSend webhookUrl: "${env.WEBHOOK_URL}",
         factDefinitions: [
           [name: 'Status', template: 'Pipeline Failed']
         ],

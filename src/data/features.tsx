@@ -19,7 +19,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.harmonization-engine.title',
     }),
     image: {
-      src: '/img/landingpage_feature_ecosystem.png',
+      src: '/img/landingpage_feature_icon_ecosystem.png',
       width: 50,
       height: 50,
     },
@@ -36,7 +36,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.care-quality-driver.title',
     }),
     image: {
-      src: '/img/landingpage_feature_dataquality.png',
+      src: '/img/landingpage_feature_icon_dataquality.png',
       width: 50,
       height: 50,
     },
@@ -53,7 +53,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.clinical-concept-browser.title',
     }),
     image: {
-      src: '/img/landingpage_feature_browse.png',
+      src: '/img/landingpage_feature_icon_browse.png',
       width: 50,
       height: 50,
     },
@@ -70,7 +70,7 @@ const FEATURES: FeatureItem[] = [
       id: 'homepage.features.collaborative-workspace.title',
     }),
     image: {
-      src: '/img/landingpage_feature_collaboration.png',
+      src: '/img/landingpage_feature_icon_collaboration.png',
       width: 50,
       height: 50,
     },
