@@ -70,19 +70,27 @@ const config = {
             position: 'left'
           },
           {
+            to: '/about',
+            label: 'About',
+            position: 'left'
+          },
+          {
             to: '/install',
             label: 'Install',
-            position: 'left'},
+            position: 'left'
+          },
+          {
+            to: '/community',
+            label: 'Community',
+            position: 'left'
+          },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: 'Learn More',
           },
-          {
-            to: '/about',
-            label: 'About',
-            position: 'left'},
+          
         ],
       },
       colorMode: {
