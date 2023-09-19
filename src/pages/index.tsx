@@ -1,5 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -29,7 +31,7 @@ function TopBanner() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
         <a href="#" id="scroll-to-features" onClick={scrollToFeatures}>
-          <div className={clsx(styles.topBannerDownArrow)}></div>
+          <FontAwesomeIcon className={clsx(styles.mainBannerArrowDown)} icon={faChevronDown} />
         </a>
       </div>
     </header>
