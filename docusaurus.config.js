@@ -57,6 +57,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // Replace with your actual Algolia application ID
+        appId: '1YGVGN70K0',
+        apiKey: '2d097ea5ed82ed5c6c4e246a59b2f984',
+        // Replace with your actual index name from Algolia
+        indexName: 'ikm',
+      },
       navbar: {
         title: 'Komet',
         logo: {
