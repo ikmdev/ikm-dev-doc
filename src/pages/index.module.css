@@ -3,7 +3,7 @@
  * and scoped locally.
  */
 
-html, body {
+ html, body {
   height: 100%;
 }
 
@@ -103,22 +103,22 @@ html, body {
   font-weight: bold;
 }
 
-.platformBannerContainer {
+.applicationBannerContainer {
   display: flex;
   flex-wrap: wrap;
   padding: 3rem 0 2rem 0;
 }
 
-.platformBannerItem {
+.applicationBannerItem {
   flex: 1;
 }
 
-.platformBannerItemTitle {
+.applicationBannerItemTitle {
   font-size: 1.7rem;
   font-weight: bold;
 }
 
-.platformBannerListItem {
+.applicationBannerListItem {
   margin: 0;
 	padding: 12px 30px;
 	list-style: none;
@@ -129,7 +129,7 @@ html, body {
   font-weight: bold;
 }
 
-.platformBannerQuote {
+.applicationBannerQuote {
   font-weight: bold;
   text-align: center;
   font-style: italic;
@@ -155,7 +155,7 @@ html, body {
     width: 80%;
   }
 
-  .platformBannerContainer {
+  .applicationBannerContainer {
     flex-direction: column-reverse;
   }
 
