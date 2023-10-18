@@ -1,0 +1,63 @@
+@Library("titan-library") _
+
+pipeline {
+
+    agent any
+
+    options {
+        skipDefaultCheckout(false)
+        timestamps()
+        ansiColor('xterm')
+    }
+    
+    environment {
+        TRUNK_BRANCH_NAME   = 'main'
+        REPO_NAME           = "ikm-dev-doc"
+        // BRANCH_NAME         = "${GIT_BRANCH.startsWith('origin/') ? GIT_BRANCH['origin/'.length()..-1] : GIT_BRANCH}"
+        
+        GITLAB_OWNER        = "fda-shield"
+        GITLAB_REPO         = "https://gitlab.tinkarbuild.com/${GITLAB_OWNER}/${REPO_NAME}.git"
+        GITLAB_CREDS_ID     = 'gitlab_pat_user'
+        
+        GITHUB_OWNER        = "ikmdev"
+        GITHUB_REPO         = "https://github.com/${GITHUB_OWNER}/${REPO_NAME}.git"
+        GITHUB_CREDS_ID     = 'github-promote-pat'
+    }
+
+    stages {
+        stage('Push Commit to GitHub') {
+            tools {
+                git "git"
+            }
+            steps {
+                git branch: TRUNK_BRANCH_NAME, credentialsId: GITLAB_CREDS_ID, url: GITLAB_REPO
+                script {
+                    promoteCommit = sh (
+                            script: "git rev-parse origin/main",
+                            returnStdout: true
+                        ).trim()
+                    withCredentials([gitUsernamePassword(credentialsId: GITHUB_CREDS_ID, gitToolName: 'git')]) {
+                        //Is this commit on GitHub?
+                        echo "Adding GitHub remote..."
+                        sh """
+                            git remote rm downstream || true
+                            git remote add downstream ${GITHUB_REPO} || true
+                            git remote -v
+                            git fetch downstream
+                        """
+                        boolCommitExistsOnGitHub = sh (
+                            script: "git branch --contains ${promoteCommit} --remotes --list \'downstream/${TRUNK_BRANCH_NAME}\'",
+                            returnStdout: true
+                        ).trim() as Boolean
+                        echo "Commit Exists on GitHub = ${boolCommitExistsOnGitHub}"
+                        //Push code to GitHub if commit is not already there
+                        if (!boolCommitExistsOnGitHub) {
+                            echo "Pushing Code to GitHub"
+                            sh "git push downstream HEAD:${TRUNK_BRANCH_NAME}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
