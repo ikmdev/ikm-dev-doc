@@ -46,6 +46,12 @@
   /* Footer */
   --docsearch-footer-background: var(--ifm-color-white);
 }
+.unique-marker-for-hiding-next-h2 + h2 {
+  visibility: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
 
 nav {
   padding-top: 0 !important;
