@@ -97,6 +97,11 @@ const config = {
             position: 'left',
             label: 'Learn More',
           },
+          {
+            to: '/contact',
+            label: 'Contact Us',
+            position: 'left'
+          },
           
         ],
       },
@@ -125,6 +130,11 @@ const config = {
               {
                 label: 'About',
                 to: '/about'
+              },
+              {
+                to: '/contact',
+                label: 'Contact Us',
+                position: 'left'
               },
             ],
           },
