@@ -40,9 +40,16 @@ export function ContactUs() {
   
         <form onSubmit={handleSubmit}>
             <div className={styles.inputGroup}>
-                <input type="text" id="name" name="name" required placeholder="Name" />
-                <input type="email" id="_replyto" name="_replyto" required placeholder="Email" />
+                <input type="text" id="name" name="name" required placeholder="First Name" />
+                <input type="text" id="name" name="name" required placeholder="Last Name" />
+                
             </div>
+            <div className={styles.inputGroup}>
+            <input type="email" id="_replyto" name="_replyto" required placeholder="Email" />
+            
+            </div>
+
+            
   
             <textarea id="message" name="message" rows={5} required placeholder="What's on your mind..."></textarea>
             <br />
