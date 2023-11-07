@@ -1,4 +1,4 @@
-# The Integrated Knowledge Management Platform
+# The Integrated Knowledge Management Application
 ## A System-Wide Issue
 
 There is a significant variation in how healthcare systems organize, categorize, and store data, highlighting a need for stronger adaptive standardization. This variation in formats, or knowledge standards, can result in patient safety consequences and impedes aggregation of data on a nationwide scale. 
@@ -15,7 +15,7 @@ Komet aims to reconcile varying existing knowledge standards (e.g. LOINC, SNOMED
 
 ## Our Tool, Komet
 
-Currently, aggregating, authoring, and editing multiple knowledge standards in the healthcare ecosystem is extremely difficult, highly subjective, and lacks coordination. Our tool, Komet, builds off of our integrated knowledge management platform and displays disparate knowledge standards in uniformity. This can aid in, for example, improving the accuracy of data transformation as test results move from analyzers to laboratory information systems to electronic health records and beyond. The micro changes to how data are packaged, transformed, and reconciled aids in downstream benefits to patient outcomes and improved information for policy decision-making.
+Currently, aggregating, authoring, and editing multiple knowledge standards in the healthcare ecosystem is extremely difficult, highly subjective, and lacks coordination. Our tool, Komet, builds off of our integrated knowledge management model and displays disparate knowledge standards in uniformity. This can aid in, for example, improving the accuracy of data transformation as test results move from analyzers to laboratory information systems to electronic health records and beyond. The micro changes to how data are packaged, transformed, and reconciled aids in downstream benefits to patient outcomes and improved information for policy decision-making.
 
 Komet aims to aid in these areas for healthcare data coding:
 - Creates Consistent Representation: Komet implements a consistent encoding of healthcare activity by using a common terminology data model that can increase the quality of analytical power performed on laboratory data.
@@ -40,4 +40,4 @@ Komet aims to aid in these areas for healthcare data coding:
 
 ## Solutioning for You
 
-Komet utilizes and implements an enormity of modularity and flexibility through it’s open-source modeling for a broader adaption into a variety of contexts and situations. Komet aims to smoothly nest within existing infrastructure as an added layer to improve interoperability and harmonization of data within organizations and across the healthcare industry. Komet enables users and organizations connection to the larger Integrated Knowledge Management Platform where they can develop, contribute, and build on common solutioning collectively. Organizations can use and adapt Komet’s capabilities to suit their individual needs and problems.
+Komet utilizes and implements an enormity of modularity and flexibility through it’s open-source modeling for a broader adaption into a variety of contexts and situations. Komet aims to smoothly nest within existing infrastructure as an added layer to improve interoperability and harmonization of data within organizations and across the healthcare industry. Komet enables users and organizations connection to the larger Integrated Knowledge Management Application where they can develop, contribute, and build on common solutioning collectively. Organizations can use and adapt Komet’s capabilities to suit their individual needs and problems.

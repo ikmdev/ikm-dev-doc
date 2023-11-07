@@ -72,8 +72,8 @@ const config = {
         },
         items: [
           {
-            to: '/platform',
-            label: 'Platform',
+            to: '/application',
+            label: 'Application',
             position: 'left'
           },
           {
@@ -111,8 +111,8 @@ const config = {
             title: ' ',
             items: [
               {
-                label: 'Platform',
-                to: '/platform',
+                label: 'Application',
+                to: '/application',
               },
               {
                 label: 'Install',
