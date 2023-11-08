@@ -92,10 +92,9 @@ const config = {
             position: 'left'
           },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
+            to: '/learnmore',
             label: 'Learn More',
+            position: 'left'
           },
           {
             to: '/contact',
@@ -125,7 +124,7 @@ const config = {
               },
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/learnmore',
               },
               {
                 label: 'About',
