@@ -14,6 +14,8 @@ Welcome to our comprehensive resource library. Here you can find detailed inform
 Each volume covers a specific area of knowledge and provides in-depth information on the subject.
 
 
-### [Volume 1: Introduction to IKM](/Volume-1.pdf)
+[Volume 1: Introduction to IKM](/Volume-1.pdf)
 
-An Introduction to the Integrated Knowledge Management (IKM) Book
+[Volume 2: IKM Book Background](/Volume-2.pdf)
+
+[Volume 3: IKM Overview](/Volume-3.pdf)
