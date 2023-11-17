@@ -72,8 +72,8 @@ const config = {
         },
         items: [
           {
-            to: '/application',
-            label: 'Application',
+            to: '/demo',
+            label: 'IKM Demo',
             position: 'left'
           },
           {
@@ -96,11 +96,11 @@ const config = {
             label: 'Learn More',
             position: 'left'
           },
-          {
-            to: '/contact',
-            label: 'Contact Us',
-            position: 'left'
-          },
+          // {
+          //   to: '/contact',
+          //   label: 'Contact Us',
+          //   position: 'left'
+          // },
           
         ],
       },
@@ -115,8 +115,8 @@ const config = {
             title: ' ',
             items: [
               {
-                label: 'Application',
-                to: '/application',
+                label: 'IKM Demo',
+                to: '/demo',
               },
               {
                 label: 'Install',
@@ -130,11 +130,11 @@ const config = {
                 label: 'About',
                 to: '/about'
               },
-              {
-                to: '/contact',
-                label: 'Contact Us',
-                position: 'left'
-              },
+              // {
+              //   to: '/contact',
+              //   label: 'Contact Us',
+              //   position: 'left'
+              // },
             ],
           },
         ],
