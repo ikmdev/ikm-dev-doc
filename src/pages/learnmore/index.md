@@ -8,7 +8,7 @@ sidebar_label: Volumes
 
 Welcome to our comprehensive resource library. Here you can find detailed information across various volumes of all things related to the IKM Open Source Platform.
 
-<!-- 
+
 ## Volumes
 
 Each volume covers a specific area of knowledge and provides in-depth information on the subject.
@@ -18,4 +18,8 @@ Each volume covers a specific area of knowledge and provides in-depth informatio
 
 [Volume 2: IKM Book Background](/Volume-2.pdf)
 
-[Volume 3: IKM Overview](/Volume-3.pdf) -->
+[Volume 3: IKM Overview](/Volume-3.pdf)
+
+[Volume 6: ANF Ballot](/Volume-6.pdf)
+
+[Volume 8: Komet User Guide](/Volume-8.pdf)
