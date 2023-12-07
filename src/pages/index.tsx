@@ -100,37 +100,43 @@ function QuoteBanner() {
 
 function PlatformBanner() {
   return (
-    <header style={{backgroundColor: "white"}}>
-      <div className="container">
-        <div className={clsx(styles.platformBannerContainer)}>
-          <div className={clsx(styles.platformBannerItem)}>
-            <p className={clsx(styles.platformBannerItemTitle)}>Our IKM Platform</p>
-            <ul className={clsx(styles.platformBannerList)}>
-              <li className={clsx(styles.platformBannerListItem)}>Provides a space for healthcare knowledge to be managed in one centralized area</li>
-              <li className={clsx(styles.platformBannerListItem)}>Allows for knowledge management at the healthcare ecosystem level, rather than at the individual organization level</li>
-              <li className={clsx(styles.platformBannerListItem)}>Enables collaboration from knowledge experts across the ecosystem </li>
+    <header style={{backgroundColor: "white", display: "flex", padding: "40px 0"}}>
+      <div className="container" style={{display: "flex"}}>
+
+        {/* Left Half */}
+        <div style={{flex: 1}}>
+          <div className={clsx(styles.applicationBannerItem)}>
+            <p className={clsx(styles.applicationBannerItemTitle)}>Our IKM Application</p>
+            <ul className={clsx(styles.applicationBannerList)}>
+              <li className={clsx(styles.applicationBannerListItem)}>Provides a space for healthcare knowledge to be managed in one centralized area</li>
+              <li className={clsx(styles.applicationBannerListItem)}>Allows for knowledge management at the healthcare ecosystem level, rather than at the individual organization level</li>
+              <li className={clsx(styles.applicationBannerListItem)}>Enables collaboration from knowledge experts across the ecosystem </li>
             </ul>
-            <div className={styles.buttons} style={{marginRight: "40px"}}>
+          </div>
+        </div>
+
+        {/* Right Half */}
+        <div style={{flex: 1, textAlign: "center"}}>
+          <div className={clsx(styles.applicationBannerItem)}>
+            <p className={clsx(styles.applicationBannerQuote)}>Built by you, for you</p>
+            <img src={useBaseUrl("img/landingpage_platform_graphic.png")} alt="Image of Integrated Knowledge Management (IKM) Platform" style={{maxWidth: "300px"}}></img>
+            <div className={styles.buttons} style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "20px"}}>
               <Link
                 className="button button--secondary button--md"
-                to="/learnmore"
+                to="/docs"
                 style={{backgroundColor: "#223746", color: "white"}}>
                 Learn More
               </Link>
             </div>
           </div>
-          <div className={clsx(styles.platformBannerItem)} style={{ 
-            textAlign: "center"
-            }}>
-            <p className={clsx(styles.platformBannerQuote)}>Built by you, for you</p>
-            <img src={useBaseUrl("img/landingpage_platform_graphic.png")} alt="Image of Integrated Knowledge Management (IKM) Platform" style={{maxWidth: "300px"}}></img>
-          </div>
-          
         </div>
+
       </div>
     </header>
   );
 }
+
+
 
 function InstallBanner() {
   return (
