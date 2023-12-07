@@ -92,8 +92,8 @@ const config = {
             position: 'left'
           },
           {
-            to: '/learnmore',
-            label: 'Learn More',
+            to: '/docs',
+            label: 'Resource Library',
             position: 'left'
           },
           // {
@@ -124,7 +124,7 @@ const config = {
               },
               {
                 label: 'Docs',
-                to: '/learnmore',
+                to: '/docs',
               },
               {
                 label: 'About',
