@@ -1,67 +1,62 @@
 # Install Komet
 
-Komet can be used on both Windows and Mac. You can get started with using Komet by referring to the installation instructions below.
+Komet is available for both Windows and Mac. Follow this visually enhanced guide for a smooth installation experience.
 
-## Download Installer
+## 📥 Download Installer
 
-### Windows
+| Operating System | Steps |
+|------------------|-------|
+| **Windows**      | (1️) Go to the [Komet GitHub page](https://github.com/ikmdev/komet/releases/tag/1.7.0) and download the latest Windows installer (.msi).<br />(2️) Save the file to your chosen location. |
+| **MacOS**        | (1) Visit the [Komet GitHub page](https://github.com/ikmdev/komet/releases/tag/1.7.0) and download the latest Mac installer (.pkg) for your machine (M1 or Intel).<br />(2️) Save the file to your desired location. |
 
-1. Go to the [Komet GitHub page](https://github.com/ikmdev/komet/releases/tag/1.7.0) and download the latest Windows installer (.msi).
-
-2. Save the download file to your location of choice.
-
-
-### MacOS
-
-1. Go to the [Komet GitHub page](https://github.com/ikmdev/komet/releases/tag/1.7.0) and download the latest Mac installer (.pkg) for the appropriate machine (M1 vs. Intel).
-
-2. Save the download file to your location of choice.
-
-## Run Installer
-
+## 🔧 Run Installer
 
 ### Windows
 
-1. Open the Komet Installer file.
-
-2. A message will pop up asking you to run the Komet installer. Click "Run".
-
-3. Once complete, there will be no pop-up. Verify the install was successful by searching for Komet using the Start menu.
+1. Open the Komet Installer file.<br />
+2. Click "Run" when prompted.<br />
+3. Verify the install by searching for Komet in the Start menu.
 
 ### MacOS
 
-1. Open the Komet installer file.
+1. Open the Komet installer file.<br />
+2. Click "Run" when prompted.<br />
+3. Check the installation by using Spotlight Search or Finder.
 
-2. A message will pop up asking you to run the Komet installer. Click "Run".
+## 🚀 How to Run Komet
 
-3. Once complete, there will be no pop-up. Verify the install was successful by searching for Komet using Spotlight Search or Finder.
+Komet requires data for full functionality. Here's a step-by-step guide:
+
+<div style={{ backgroundColor: '#f0f8ff', padding: '15px', borderLeft: '5px solid #007bff', marginBottom: '20px' }}>
+  <ol>
+    <li><strong>Open Komet:</strong> Start the Komet application.</li>
+    <li><strong>Select Data Source:</strong> Choose “Open SpinedArrayStore” from the options.</li>
+    <li><strong>Confirm Selection:</strong> Click “OK” to finalize. Komet is now ready!</li>
+  </ol>
+</div>
 
 
-## How to Run Komet
+## 📦 How to Import Data
 
- Komet requires data to operate with full functionality. To use Komet with full functionality, refer to the [How to Import Data](#how-to-import-data) section.
+Follow these streamlined steps to import data into Komet:
 
-1. Open Komet.
+<div style={{ backgroundColor: '#fff0f5', padding: '15px', borderLeft: '5px solid #db7093', marginBottom: '20px' }}>
+  <ol>
+    <li><strong>Prepare Data Location:</strong> Move the data zip file to the appropriate directory:
+      <ul>
+        <li>Windows: <code>OSDisk (C:) -> Users -> [your username] -> Solor</code></li>
+        <li>Mac: <code>Users > [your username] > Solor</code></li>
+      </ul>
+      <em>Note: Create a 'Solor' folder if it doesn't exist.</em>
+    </li>
+    <li><strong>Extract Data:</strong> Unzip and extract the data in the Solor folder.</li>
+    <li><strong>Restart Komet:</strong> Relaunch Komet and set “Open SpinedArrayStore” as the data source.</li>
+    <li><strong>Choose Data Source:</strong> Select the new data source and click “OK”. Komet is now ready!</li>
+  </ol>
+</div>
 
-2. Change the data source to “Open SpinedArrayStore”.
 
-3. Select your preferred data source and click “OK” in the bottom right corner. Komet is now ready for use.
+## 🛠️ Troubleshoot
 
-## How to Import Data
+For detailed instructions or troubleshooting, refer to the [Komet User Guide](#) or [submit an issue on GitHub](https://github.com/ikmdev/komet/issues).
 
-1. Copy and paste the data zip file you want to use to the following location.
-
-    For Windows: **OSDisk (C:) -> Users -> [your username] -> Solor**
-
-    For Mac: **Users > [your username] > Solor**
-
-    (**Note:** If a Solor folder does not exist, create one and paste the zip file inside.)
-
-2. Unzip and extract the data in the Solor folder.
-
-3. Restart Komet and change the data source to “Open SpinedArrayStore”. The new data source should appear.
-
-4. Select the data source you want to use and click “OK” in the bottom right corner. Komet is now ready for use.
-
-## Troubleshoot
-For troubleshooting and more in-depth instructions on installing and using Komet, refer to the Komet User Guide or [submit an issue](https://github.com/ikmdev/komet/issues).
