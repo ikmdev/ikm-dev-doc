@@ -123,7 +123,7 @@ const config = {
                 to: '/community',
               },
               {
-                label: 'Docs',
+                label: 'Resource Library',
                 to: '/docs',
               },
 

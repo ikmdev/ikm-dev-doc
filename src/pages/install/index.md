@@ -11,17 +11,12 @@ Komet is available for both Windows and Mac. Follow this visually enhanced guide
 
 ## 🔧 Run Installer
 
-### Windows
+| Operating System | Steps |
+|------------------|-------|
+| **Windows**      | (1) Open the Komet Installer file.<br /> (2) Click "Run" when prompted.<br /> (3) Verify the install by searching for Komet in the Start menu. |
+| **MacOS**        | (1) Open the Komet installer file.<br /> (2) Click "Run" when prompted.<br /> (3) Check the installation by using Spotlight Search or Finder. |
 
-1. Open the Komet Installer file.<br />
-2. Click "Run" when prompted.<br />
-3. Verify the install by searching for Komet in the Start menu.
 
-### MacOS
-
-1. Open the Komet installer file.<br />
-2. Click "Run" when prompted.<br />
-3. Check the installation by using Spotlight Search or Finder.
 
 ## 🚀 How to Run Komet
 
