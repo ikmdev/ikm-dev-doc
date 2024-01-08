@@ -1,4 +1,4 @@
-# About
+# Aboutt
 
 **Our Integrated Knowledge Management Platform aims to let open-source solutions be at the forefront of solving our world’s most complex healthcare challenges.**
 
