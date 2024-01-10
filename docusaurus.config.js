@@ -72,15 +72,11 @@ const config = {
         },
         items: [
           {
-            to: '/demo',
-            label: 'IKM Demo',
-            position: 'left'
-          },
-          {
             to: '/about',
             label: 'About',
             position: 'left'
           },
+          
           {
             to: '/install',
             label: 'Install',
@@ -115,21 +111,23 @@ const config = {
             title: ' ',
             items: [
               {
-                label: 'IKM Demo',
-                to: '/demo',
+                label: 'About',
+                to: '/about'
               },
               {
                 label: 'Install',
                 to: '/install',
               },
               {
-                label: 'Docs',
-                to: '/docs',
+                label: 'Community',
+                to: '/community',
               },
               {
-                label: 'About',
-                to: '/about'
+                label: 'Resource Library',
+                to: '/docs',
               },
+
+              
               // {
               //   to: '/contact',
               //   label: 'Contact Us',

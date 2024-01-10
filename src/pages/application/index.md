@@ -1,5 +1,5 @@
 # The Integrated Knowledge Management Application
-## A System-Wide Issues
+## A System-Wide Issue
 
 There is a significant variation in how healthcare systems organize, categorize, and store data, highlighting a need for stronger adaptive standardization. This variation in formats, or knowledge standards, can result in patient safety consequences and impedes aggregation of data on a nationwide scale. 
 
