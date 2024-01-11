@@ -56,9 +56,3 @@ This section reviews the importance of safety systems in clinical laboratories, 
 
 <br></br>
 Volume 8 serves as a user guide for Komet and outlines the steps for downloading, installing, and starting the contributed application. It covers importing and reading-in data, searching concepts using both the Komet and Journal interfaces, distinguishing concept versions and history, editing and modifying data, exporting and sharing data, and viewing concept timeline properties.
-
-### Volume 9: Open Source Overview
-<a href="/Volume-9.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
-
-<br></br>
-This section describes open-source software in healthcare IT, highlighting its role in fostering community collaboration and decentralized development. It emphasizes open-source's importance for enhancing interoperability and adaptability in healthcare technology, advocating for permissive licensing to facilitate widespread use, modification, and distribution of software, thereby improving system compatibility and knowledge sharing.
