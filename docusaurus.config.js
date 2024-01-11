@@ -65,7 +65,7 @@ const config = {
         indexName: 'ikm',
       },
       navbar: {
-        title: 'Komet',
+        title: 'IKM',
         logo: {
           alt: 'Komet Logo',
           src: 'img/komet_logo.svg',
