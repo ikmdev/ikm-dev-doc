@@ -86,7 +86,7 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Komet App',
+                label: 'Install Komet',
                 to: '/install/app', 
               },
               {
@@ -163,7 +163,7 @@ const config = {
             title: 'Install',
             items: [
               {
-                label: 'Komet App',
+                label: 'Install Komet',
                 to: '/install/app', 
               },
               {
