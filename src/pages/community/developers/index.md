@@ -4,7 +4,7 @@ title: Community Projects
 ---
 
 import DropdownTabs from '@site/src/components/DropdownTabs';
-import styles from './community.module.css';
+import styles from './developers.module.css';
 
 # Contribute on GitHub
 
