@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Komet',
-  tagline: 'Bringing Integrated Knowledge Management to Life',
+  title: 'Integrated Knowledge Management',
   url: 'https://fantastic-giggle-e60e5e9a.pages.github.io', //TODO: Replace with appropriate URL
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -72,72 +71,152 @@ const config = {
         },
         items: [
           {
-            to: '/about',
+            type: 'dropdown',
             label: 'About',
-            position: 'left'
+            position: 'left',
+            items: [
+              {label: 'Integrated Knowledge Management', to: '/about/ikm'},
+             {label: 'Komet Tool', to: '/about/komet'}
+            ],
           },
           
           {
-            to: '/install',
+            type: 'dropdown',
             label: 'Install',
-            position: 'left'
+            position: 'left',
+            items: [
+              {
+                label: 'Komet App',
+                to: '/install/app', 
+              },
+              {
+                label: 'Komet User Guide',
+                to: '/install/guide', 
+              },
+            ]
+            
           },
           {
-            to: '/community',
+            type: 'dropdown',
             label: 'Community',
-            position: 'left'
+            position: 'left',
+            items: [
+              {
+                label: 'Get Started',
+                to: '/community/getstarted',
+              },
+              {
+                label: 'Developers',
+                to: '/community/developers', 
+              },
+              {
+                label: 'Informaticists',
+                to: '/community/informaticists', 
+              },
+            ],
           },
           {
-            to: '/docs',
+            type: 'dropdown',
             label: 'Resource Library',
-            position: 'left'
+            position: 'left',
+            items: [
+              {
+                label: 'Volumes',
+                to: '/docs/volumes',
+              },
+              {
+                label: 'Technical Documents',
+                to: '/docs/technical', 
+              },
+            ],
           },
-          // {
-          //   to: '/contact',
-          //   label: 'Contact Us',
-          //   position: 'left'
-          // },
-          
+          {
+            to: '/contact',
+            label: 'Contact Us',
+            position: 'right',
+          },
         ],
       },
+
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true
       },
+
       footer: {
         style: 'dark',
         links: [
           {
-            title: ' ',
+            title: 'About',
             items: [
               {
-                label: 'About',
-                to: '/about'
+                label: 'Integrated Knowledge Management',
+                to: '/about/ikm', 
               },
               {
-                label: 'Install',
-                to: '/install',
+                label: 'Komet Tool',
+                to: '/about/komet', 
+              },
+            ],
+          },
+          {
+            title: 'Install',
+            items: [
+              {
+                label: 'Komet App',
+                to: '/install/app', 
               },
               {
-                label: 'Community',
-                to: '/community',
+                label: 'Komet User Guide',
+                to: '/install/guide', 
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Get Started',
+                to: '/community/getstarted', // Update this with the correct path
               },
               {
-                label: 'Resource Library',
-                to: '/docs',
+                label: 'Developers',
+                to: '/community/developers', // Update this with the correct path
               },
-
+              {
+                label: 'Informaticists', // Replace with actual label
+                to: '/community/informaticists', // Update this with the correct path
+              },
               
-              // {
-              //   to: '/contact',
-              //   label: 'Contact Us',
-              //   position: 'left'
-              // },
+            ],
+          },
+          
+          {
+            title: 'Resource Library',
+            items: [
+              {
+                label: 'Volumes',
+                to: '/docs/volumes', // Update this with the correct path
+              },
+              {
+                label: 'Helpful Documents',
+                to: '/docs/technical', // Update this with the correct path
+              },
+            ],
+          },
+          {
+            title: 'Contact Us',
+            items: [
+              {
+                label: 'Contact Form',
+                to: '/contact', // Update this with the correct path
+              },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()}`,
       },
+      
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

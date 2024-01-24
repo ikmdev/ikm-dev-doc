@@ -162,8 +162,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
       <Layout
-        title={`${siteConfig.title}`}
-        description="Bringing Integrated Knowledge Management to Life">
+        title="Bringing Integrated Knowledge Management to Life">
         <main>
           <TopBanner />
           <FeaturesContainer />

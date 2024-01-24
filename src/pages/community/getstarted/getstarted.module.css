@@ -1,0 +1,68 @@
+/* getstarted.module.css */
+
+.description,
+
+.description {
+    background-color: var(--ifm-color-primary-darker); /* Using the darker shade of primary color */
+}
+
+.liItem {
+    margin-bottom: 10px; /* Or however much space you want between items */
+}
+.contributionButton {
+    display: block;
+    width: max-content;
+    padding: 10px 20px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: var(--ifm-color-primary); /* Using the primary color */
+    color: #fff; /* White text for readability */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    color: #fff; /* White text for normal state */
+    text-decoration: none; /* Remove underline */
+}
+
+.contributionButton:hover {
+    background-color: var(--ifm-color-primary-dark); /* Darker green background on hover for contrast */
+    color: #ffffff; /* Keeping text white on hover for contrast */
+    text-decoration: none; /* Ensure underline doesn't appear on hover */
+}
+
+
+.repositories {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    display: block; /* Allow the tiles to expand the full width of the container */
+    text-align: left; /* Align content to the left */
+}
+
+.tile {
+    border-top: 1px solid #d3d3d3; /* Adjusted top border for the tiles to a grey color */
+    padding: 20px; /* Some internal spacing */
+    text-decoration: none; /* Remove the underline from links */
+}
+.tile:first-child {
+    border-top:  1px solid #d3d3d3; /* Remove the top border from the first tile */
+}
+
+.tile:last-child {
+    border-bottom: 1px solid #d3d3d3; /* Add bottom border to the last tile and set to a grey color */
+}
+
+.tile a {
+    color: var(--ifm-color-primary-darkest); /* Text color, adjust as necessary */
+    text-decoration: none; /* Remove link underline */
+    display: block; /* Make links fill the tile for larger click area */
+}
+
+.tile a:hover {
+    text-decoration: underline; /* Optional: underline text on hover for better user feedback */
+}
+
+
+.tile a:hover {
+    text-decoration: underline; /* Optional: underline text on hover for better user feedback */
+}

@@ -4,6 +4,49 @@
  * work well for content-centric websites.
  */
 
+/**
+ * Any CSS included here will be global.
+ */
+
+/* Center the footer contents */
+.footer .container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: left; /* Center text */
+}
+
+/* Style for the links section */
+.footer .footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem; /* Add some space between the links and the copyright section */
+}
+
+.footer .footer__link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .col {
+  flex: 1;
+  min-width: 130px;
+  
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 1067px) {
+  .footer .footer__links {
+    flex-direction: column;
+  }
+}
+
+
+/* Additional styling can go here if needed */
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -86,8 +129,6 @@ nav {
   display: flex;
   align-items: center;
 }
-
-
 
 
 @media screen and (max-width: 996px) {
