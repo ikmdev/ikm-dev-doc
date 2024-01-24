@@ -123,7 +123,7 @@ function PlatformBanner() {
             <div className={styles.buttons} style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "20px"}}>
               <Link
                 className="button button--secondary button--md"
-                to="/docs"
+                to="/docs/volumes"
                 style={{backgroundColor: "#223746", color: "white"}}>
                 Learn More
               </Link>
@@ -148,7 +148,7 @@ function InstallBanner() {
           <div className={styles.buttons} style={{marginRight: "40px"}}>
             <Link
               className="button button--secondary button--md"
-              to="/install">
+              to="/install/app">
               Install Komet
             </Link>
           </div>

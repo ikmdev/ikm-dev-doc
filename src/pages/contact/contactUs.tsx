@@ -9,7 +9,7 @@ import useBaseUrl, {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import emailjs from 'emailjs-com';
 import React, { useState } from 'react';
 
-export function ContactUs() {
+export default function ContactUs() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState('');
 
