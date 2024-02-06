@@ -65,7 +65,24 @@ function Feature({
   );
 }
 
-function FeaturesContainer() {
+export function FeaturesContainer() {
+
+  return (
+    <div id="features" className="container text--center" style={{ paddingTop: "3rem"}}>
+      <div className="row margin-bottom--lg">
+        {Features.map((feature, idx) => (
+          <Feature feature={feature} key={idx} />
+        ))}
+      </div>
+      <div>
+        {/* <p className={clsx(styles.featuresContainerText)}>Creating a more integrated future for healthcare.</p> */}
+      </div>
+    </div>
+  );
+}
+
+
+function IkmFeaturesContainer() {
 
   return (
     <div id="features" className="container text--center" style={{ paddingTop: "3rem"}}>
@@ -123,7 +140,7 @@ function PlatformBanner() {
             <div className={styles.buttons} style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "20px"}}>
               <Link
                 className="button button--secondary button--md"
-                to="/docs/volumes"
+                to="/about/komet"
                 style={{backgroundColor: "#223746", color: "white"}}>
                 Learn More
               </Link>
@@ -165,7 +182,7 @@ export default function Home(): JSX.Element {
         title="Bringing Integrated Knowledge Management to Life">
         <main>
           <TopBanner />
-          <FeaturesContainer />
+          <IkmFeaturesContainer/>
           <QuoteBanner />
           <PlatformBanner />
           <InstallBanner />

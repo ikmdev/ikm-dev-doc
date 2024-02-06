@@ -32,6 +32,12 @@ Volume 2 provides background context on the efforts since 2015 to enhance the in
 Volume 3 emphasizes the role of IKM in enhancing healthcare data management, particularly in overcoming challenges surrounding data loss and misinterpretation. It highlights the need for integrated terminology standards and collaboration across the healthcare system to improve data interoperability, data quality, and ultimately patient safety. This volume explores how a unified representation model would facilitate better patient outcomes and effective data analysis.
 <p></p>
 
+### Volume 4: Tinkar Ballot
+<a href="/Volume-4.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+<br></br>
+Volume 4 provides an overview of Terminology Knowledge Architecture (Tinkar), focusing on its role in harmonizing biomedical terminologies like SNOMED CT®, LOINC®, and RxNorm within healthcare IT systems. It highlights the importance of standardization for interoperability and efficient data exchange, presenting Tinkar's logical framework as a solution to the complexities of integrating and managing diverse terminologies to support seamless health information exchange.
+<p></p>
+
 ### Volume 5: Terminology Knowledge
 <a href="/Volume-5.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 <br></br>
@@ -56,3 +62,9 @@ This section reviews the importance of safety systems in clinical laboratories, 
 
 <br></br>
 Volume 8 serves as a user guide for Komet and outlines the steps for downloading, installing, and starting the contributed application. It covers importing and reading-in data, searching concepts using both the Komet and Journal interfaces, distinguishing concept versions and history, editing and modifying data, exporting and sharing data, and viewing concept timeline properties.
+
+### Volume 9: Open Source and Ecosystem
+<a href="/Volume-9.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 9 focuses on the significance of open-source software within the tech ecosystem, spotlighting the collaborative, community-driven development model. It emphasizes the benefits of open-source for enhancing interoperability, community testing, and overcoming proprietary barriers, particularly in healthcare IT. This volume guides users on engaging with open-source projects and adopting open-source licensing models to foster innovation and flexibility in software development.
