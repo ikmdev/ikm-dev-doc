@@ -140,7 +140,7 @@ function PlatformBanner() {
             <div className={styles.buttons} style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "20px"}}>
               <Link
                 className="button button--secondary button--md"
-                to="/docs/volumes"
+                to="/about/komet"
                 style={{backgroundColor: "#223746", color: "white"}}>
                 Learn More
               </Link>
