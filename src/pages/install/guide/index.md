@@ -6,7 +6,9 @@ import TabItem from '@theme/TabItem';
 ## Downloading Komet
 
 1. Use the [Komet Releases](https://github.com/ikmdev/komet/releases) link to download the latest Komet release build for your appropriate operating system.
+
 ![Komet User Guide Onee](user_guide_images/Komet_User_Guide_One.png)
+
 2. Save the download file to the location of your choice
 3. The Komet installer will automatically create a "Solor" folder in your <code>OSDisk (C:) -> Users -> [your personal user name]</code> folder 
 
@@ -23,9 +25,13 @@ import TabItem from '@theme/TabItem';
 ### Windows
 
 1.	From your browser’s downloads, open the Komet Installer file
+
 ![Windows First Pic](user_guide_images/windows1.png)
+
 2.	A message will pop up asking if you want to run the Komet Installer File, click "Run"
+
 ![Windows Second Pic](user_guide_images/windows2.png)
+
 3.	Once complete, nothing will automatically pop-up, so you will need to verify the install was successful by searching in your applications folder or your Operating System’s search feature for the Komet app
 
 

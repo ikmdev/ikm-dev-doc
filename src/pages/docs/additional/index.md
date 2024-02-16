@@ -6,7 +6,7 @@ sidebar_label: Additional Documents
 
 
 # Additional Documents
-Your place to find more links, videos, diagrams, technical documents and more.
+Your place to find more Integrated Knowledge Management links, videos, diagrams, technical documents and more.
 
 
 <!-- [Link to YouTube video](https://www.youtube.com/watch?v=V9UlV1RUPpU) -->
