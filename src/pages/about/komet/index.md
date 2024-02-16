@@ -11,7 +11,6 @@ import { FeaturesContainer } from '@site/src/pages/index.tsx';
 </div>
 
 
-<FeaturesContainer/>
 
 ## 🚩 Key Issues Addressed
 

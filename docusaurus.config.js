@@ -85,10 +85,10 @@ const config = {
             label: 'Install',
             position: 'left',
             items: [
-              {
-                label: 'Install Komet',
-                to: '/install/app', 
-              },
+              // {
+              //   label: 'Install Komet',
+              //   to: '/install/app', 
+              // },
               {
                 label: 'Komet User Guide',
                 to: '/install/guide', 
@@ -125,8 +125,8 @@ const config = {
                 to: '/docs/volumes',
               },
               {
-                label: 'Technical Documents',
-                to: '/docs/technical', 
+                label: 'Additional Documents',
+                to: '/docs/additional', 
               },
             ],
           },
@@ -162,10 +162,10 @@ const config = {
           {
             title: 'Install',
             items: [
-              {
-                label: 'Install Komet',
-                to: '/install/app', 
-              },
+              // {
+              //   label: 'Install Komet',
+              //   to: '/install/app', 
+              // },
               {
                 label: 'Komet User Guide',
                 to: '/install/guide', 
@@ -199,8 +199,8 @@ const config = {
                 to: '/docs/volumes', // Update this with the correct path
               },
               {
-                label: 'Helpful Documents',
-                to: '/docs/technical', // Update this with the correct path
+                label: 'Additional Documents',
+                to: '/docs/additional', // Update this with the correct path
               },
             ],
           },
