@@ -11,7 +11,7 @@ Your place to find more links, videos, diagrams, technical documents and more.
 
 <!-- [Link to YouTube video](https://www.youtube.com/watch?v=V9UlV1RUPpU) -->
 
-## Friends of Cancer
+## Friends of Cancer Research
 
 ### What is Real-World Evidence?
 
