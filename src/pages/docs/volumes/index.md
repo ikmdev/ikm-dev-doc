@@ -68,3 +68,16 @@ Volume 8 serves as a user guide for Komet and outlines the steps for downloading
 
 <br></br>
 Volume 9 focuses on the significance of open-source software within the tech ecosystem, spotlighting the collaborative, community-driven development model. It emphasizes the benefits of open-source for enhancing interoperability, community testing, and overcoming proprietary barriers, particularly in healthcare IT. This volume guides users on engaging with open-source projects and adopting open-source licensing models to foster innovation and flexibility in software development.
+
+<br></br>
+<br></br>
+<br></br>
+
+### Appendix
+<a href="/Appendix.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+The Appendix section list terms and definitions for quick, convenient access.
+
+
+<!-- add appendix here -->
