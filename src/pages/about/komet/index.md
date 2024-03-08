@@ -6,9 +6,13 @@ import { FeaturesContainer } from '@site/src/pages/index.tsx';
 
 ## 📋 Overview
 
-<div style={{ backgroundColor: '#e6f4ea', padding: '15px', borderLeft: '5px solid #34a853', marginBottom: '20px', borderRadius: '5px' }}>
-  <strong>Komet</strong> is a transformative open-source tool designed to harmonize healthcare data standards, enhancing clinical decision support and improving patient outcomes.
-</div>
+<!-- <div style={{ backgroundColor: '#e6f4ea', padding: '15px', borderLeft: '5px solid #34a853', marginBottom: '20px', borderRadius: '5px' }}> -->
+
+<strong>Komet</strong> is a transformative open-source tool designed to harmonize healthcare data standards, enhancing clinical decision support and improving patient outcomes.
+
+<!-- </div> -->
+<br></br>
+<br></br>
 
 
 
@@ -65,6 +69,8 @@ Komet addresses key challenges in healthcare data management:
 
 ## 🛠️ Solutioning with Komet
 
-<div style={{ backgroundColor: '#e6f4ea', padding: '15px', borderLeft: '5px solid #34a853', marginBottom: '20px', borderRadius: '5px' }}>
+<!-- <div style={{ backgroundColor: '#e6f4ea', padding: '15px', borderLeft: '5px solid #34a853', marginBottom: '20px', borderRadius: '5px' }}> -->
+
 Komet's open-source model offers flexibility and modularity, seamlessly integrating with existing infrastructure for enhanced data interoperability and harmonization. It connects users to a broader consortium for collective solution development, adaptable to various organizational needs.
-</div>
+
+<!-- </div> -->
