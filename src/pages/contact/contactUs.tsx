@@ -27,14 +27,17 @@ export default function ContactUs() {
       from_name: fullName,
       reply_to: event.target._replyto.value,
       message: event.target.message.value,
-      to_email: 'contact@ikm.dev'
+      to_email: 'seb.oliver.10@gmail.com'
     };
 
     emailjs.send(serviceID, templateID, templateParams, userID)
       .then((response) => {
+        console.log(response.status)
+        console.log(response)
         setIsSubmitting(false);
         setSubmitStatus('Sent!');
       }, (error) => {
+        console.log(error);
         setIsSubmitting(false);
         setSubmitStatus('Failed to send');
       });
