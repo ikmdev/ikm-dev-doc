@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -116,32 +116,44 @@ function QuoteBanner() {
 }
 
 function PlatformBanner() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    // Check on mount (and subsequently set the correct initial state)
+    checkMobile();
+    // Add event listener for window resize
+    window.addEventListener('resize', checkMobile);
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   return (
-    <header style={{backgroundColor: "white", display: "flex", padding: "40px 0"}}>
-      <div className="container" style={{display: "flex"}}>
+    <header style={{ backgroundColor: "white", padding: "40px 0" }}>
+      <div className="container" style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row' }}>
 
         {/* Left Half */}
-        <div style={{flex: 1}}>
+        <div style={{ flex: 1 }}>
           <div className={clsx(styles.applicationBannerItem)}>
             <p className={clsx(styles.applicationBannerItemTitle)}>Our IKM Application</p>
             <ul className={clsx(styles.applicationBannerList)}>
               <li className={clsx(styles.applicationBannerListItem)}>Provides a space for healthcare knowledge to be managed in one centralized area</li>
               <li className={clsx(styles.applicationBannerListItem)}>Allows for knowledge management at the healthcare ecosystem level, rather than at the individual organization level</li>
-              <li className={clsx(styles.applicationBannerListItem)}>Enables collaboration from knowledge experts across the ecosystem </li>
+              <li className={clsx(styles.applicationBannerListItem)}>Enables collaboration from knowledge experts across the ecosystem</li>
             </ul>
           </div>
         </div>
 
         {/* Right Half */}
-        <div style={{flex: 1, textAlign: "center"}}>
+        <div style={{ flex: 1, textAlign: 'center' }}>
           <div className={clsx(styles.applicationBannerItem)}>
             <p className={clsx(styles.applicationBannerQuote)}>Built by you, for you</p>
-            <img src={useBaseUrl("img/landingpage_platform_graphic.png")} alt="Image of Integrated Knowledge Management (IKM) Platform" style={{maxWidth: "300px"}}></img>
-            <div className={styles.buttons} style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "20px"}}>
+            <img src={useBaseUrl("img/landingpage_platform_graphic.png")} alt="IKM Platform" style={{ maxWidth: '300px' }}></img>
+            <div className={styles.buttons} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
               <Link
                 className="button button--secondary button--md"
                 to="/about/komet"
-                style={{backgroundColor: "#223746", color: "white"}}>
+                style={{ backgroundColor: '#223746', color: 'white' }}>
                 Learn More
               </Link>
             </div>
