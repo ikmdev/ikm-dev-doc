@@ -177,7 +177,7 @@ function InstallBanner() {
           <div className={styles.buttons} style={{marginRight: "40px"}}>
             <Link
               className="button button--secondary button--md"
-              to="/install/app">
+              to="/install/guide">
               Install Komet
             </Link>
           </div>
