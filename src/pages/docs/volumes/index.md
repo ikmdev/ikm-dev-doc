@@ -69,6 +69,19 @@ Volume 8 serves as a user guide for Komet and outlines the steps for downloading
 <br></br>
 Volume 9 focuses on the significance of open-source software within the tech ecosystem, spotlighting the collaborative, community-driven development model. It emphasizes the benefits of open-source for enhancing interoperability, community testing, and overcoming proprietary barriers, particularly in healthcare IT. This volume guides users on engaging with open-source projects and adopting open-source licensing models to foster innovation and flexibility in software development.
 
+### Volume 11: Healthcare Data Management
+<a href="/Volume-11.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 11 highlights the significance of Healthcare Data Management, focusing on integrating diverse data sources to enhance patient care. It introduces Integrated Knowledge Management (IKM) to improve system interoperability and addresses challenges in mental health data privacy, the integration of electronic health records, and the role of data analytics in population health management. This volume offers insights into leveraging advanced data management strategies for improved healthcare outcomes.
+
+### Volume 11: Healthcare Quality Improvement
+<a href="/Volume-12.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 12 showcases the transformative role of Integrated Knowledge Management (IKM) and Terminology Knowledge Architecture (Tinkar) in healthcare quality improvement. It emphasizes their impact on standardizing terminology, enhancing decision-making, and supporting evidence-based practices to improve patient outcomes and operational efficiency. This volume advocates for the integration of IKM and Tinkar to address challenges in healthcare quality and equity through better data management.
+
+
 <br></br>
 <br></br>
 <br></br>

@@ -1,0 +1,33 @@
+/* index.module.css */
+.videoContainer {
+    position: relative;
+    overflow: hidden;
+    /* Default to responsive setup */
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    width: 100%;
+  }
+  
+  .videoContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Media query for screens wider than 768px */
+  @media (min-width: 768px) {
+    .videoContainer {
+      /* Set to original fixed size for larger screens */
+      width: 560px; /* Original width */
+      height: 315px; /* Original height */
+      padding-top: 0; /* Remove padding used for aspect ratio */
+    }
+  
+    .videoContainer iframe {
+      position: static;
+      width: 560px; /* Original width */
+      height: 315px; /* Original height */
+    }
+  }
+  
