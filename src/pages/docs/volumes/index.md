@@ -75,7 +75,7 @@ Volume 9 focuses on the significance of open-source software within the tech eco
 <br></br>
 Volume 11 highlights the significance of Healthcare Data Management, focusing on integrating diverse data sources to enhance patient care. It introduces Integrated Knowledge Management (IKM) to improve system interoperability and addresses challenges in mental health data privacy, the integration of electronic health records, and the role of data analytics in population health management. This volume offers insights into leveraging advanced data management strategies for improved healthcare outcomes.
 
-### Volume 11: Healthcare Quality Improvement
+### Volume 12: Healthcare Quality Improvement
 <a href="/Volume-12.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
