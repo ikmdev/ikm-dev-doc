@@ -113,6 +113,10 @@ const config = {
                 label: 'Informaticists',
                 to: '/community/informaticists', 
               },
+              {
+                label: 'Code of Conduct',
+                to: '/codeofconduct',
+              },
             ],
           },
           {
@@ -127,6 +131,10 @@ const config = {
               {
                 label: 'Additional Documents',
                 to: '/docs/additional', 
+              },
+              {
+                label: 'FAQ',
+                to: '/faq', 
               },
             ],
           },
@@ -177,15 +185,19 @@ const config = {
             items: [
               {
                 label: 'Get Started',
-                to: '/community/getstarted', // Update this with the correct path
+                to: '/community/getstarted', 
               },
               {
                 label: 'Developers',
-                to: '/community/developers', // Update this with the correct path
+                to: '/community/developers', 
               },
               {
-                label: 'Informaticists', // Replace with actual label
-                to: '/community/informaticists', // Update this with the correct path
+                label: 'Informaticists', 
+                to: '/community/informaticists', 
+              },
+              {
+                label: 'Code of Conduct',
+                to: '/codeofconduct',
               },
               
             ],
@@ -196,11 +208,15 @@ const config = {
             items: [
               {
                 label: 'Volumes',
-                to: '/docs/volumes', // Update this with the correct path
+                to: '/docs/volumes',
               },
               {
                 label: 'Additional Documents',
-                to: '/docs/additional', // Update this with the correct path
+                to: '/docs/additional', 
+              },
+              {
+                label: 'FAQ',
+                to: '/faq', 
               },
             ],
           },
