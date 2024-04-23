@@ -1,0 +1,28 @@
+.customDetails > summary {
+    background-color: #4CAF50; /* Adjust the color to match your specific green */
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.customDetails > summary:hover {
+    background-color: #45A049; /* Slightly darker green for hover effect */
+}
+
+.customDetails[open] > summary {
+    border-bottom: 2px solid white;
+}
+
+.customDetails > summary::-webkit-details-marker {
+    display: none;
+}
+
+.customDetails > div {
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    background-color: #f4f4f4;
+}
+
+
+
