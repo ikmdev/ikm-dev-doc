@@ -81,6 +81,18 @@ Volume 11 highlights the significance of Healthcare Data Management, focusing on
 <br></br>
 Volume 12 showcases the transformative role of Integrated Knowledge Management (IKM) and Terminology Knowledge Architecture (Tinkar) in healthcare quality improvement. It emphasizes their impact on standardizing terminology, enhancing decision-making, and supporting evidence-based practices to improve patient outcomes and operational efficiency. This volume advocates for the integration of IKM and Tinkar to address challenges in healthcare quality and equity through better data management.
 
+### Volume 16: IKM and Emergency Disaster Response
+<a href="/Volume-16.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+ Volume 16 focuses on emergency disaster response. It covers various aspects of emergency preparedness, including the definition of emergency disasters, the landscape of emergency management in the United States, examples of knowledge management in emergency response, and the role of IKM in emergency response. The document also discusses the COVID-19 pandemic and its impact on emergency response, particularly in terms of data interoperability and the use of artificial intelligence. The conclusion emphasizes the importance of adopting IKM in emergency response to improve decision-making and overall response effectiveness.
+
+
+### Volume 17: IKM Return on Investment
+<a href="/Volume-17.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 17 provides information on the return on investment (ROI) of implementing IKM in healthcare organizations. The document highlights the benefits of IKM, including improved interoperability, data accuracy, decision-making capabilities, operational efficiency, and compliance. It also presents value propositions for C-suite executives, such as strategic advantage, financial incentives, and fostering innovation. The document emphasizes the importance of assessing organizational readiness, strategic planning, and learning from case studies when implementing IKM
 
 <br></br>
 <br></br>
