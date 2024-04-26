@@ -62,30 +62,35 @@ This section reviews the importance of safety systems in clinical laboratories, 
 
 <br></br>
 Volume 8 serves as a user guide for Komet and outlines the steps for downloading, installing, and starting the contributed application. It covers importing and reading-in data, searching concepts using both the Komet and Journal interfaces, distinguishing concept versions and history, editing and modifying data, exporting and sharing data, and viewing concept timeline properties.
+<p></p>
 
 ### Volume 9: Open Source and Ecosystem
 <a href="/Volume-9.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
 Volume 9 focuses on the significance of open-source software within the tech ecosystem, spotlighting the collaborative, community-driven development model. It emphasizes the benefits of open-source for enhancing interoperability, community testing, and overcoming proprietary barriers, particularly in healthcare IT. This volume guides users on engaging with open-source projects and adopting open-source licensing models to foster innovation and flexibility in software development.
+<p></p>
 
 ### Volume 11: Healthcare Data Management
 <a href="/Volume-11.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
 Volume 11 highlights the significance of Healthcare Data Management, focusing on integrating diverse data sources to enhance patient care. It introduces Integrated Knowledge Management (IKM) to improve system interoperability and addresses challenges in mental health data privacy, the integration of electronic health records, and the role of data analytics in population health management. This volume offers insights into leveraging advanced data management strategies for improved healthcare outcomes.
+<p></p>
 
 ### Volume 12: Healthcare Quality Improvement
 <a href="/Volume-12.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
 Volume 12 showcases the transformative role of Integrated Knowledge Management (IKM) and Terminology Knowledge Architecture (Tinkar) in healthcare quality improvement. It emphasizes their impact on standardizing terminology, enhancing decision-making, and supporting evidence-based practices to improve patient outcomes and operational efficiency. This volume advocates for the integration of IKM and Tinkar to address challenges in healthcare quality and equity through better data management.
+<p></p>
 
 ### Volume 16: IKM and Emergency Disaster Response
 <a href="/Volume-16.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
  Volume 16 focuses on emergency disaster response. It covers various aspects of emergency preparedness, including the definition of emergency disasters, the landscape of emergency management in the United States, examples of knowledge management in emergency response, and the role of IKM in emergency response. The document also discusses the COVID-19 pandemic and its impact on emergency response, particularly in terms of data interoperability and the use of artificial intelligence. The conclusion emphasizes the importance of adopting IKM in emergency response to improve decision-making and overall response effectiveness.
+<p></p>
 
 
 ### Volume 17: IKM Return on Investment
