@@ -18,16 +18,16 @@ export default function ContactUs() {
     setIsSubmitting(true);
     setSubmitStatus('Sending...');
 
-    const serviceID = 'service_35ed30c';  // Replace with your Service ID from EmailJS
-    const templateID = 'template_jkoy4bi';  // Replace with your Template ID from EmailJS
-    const userID = 'h1V68vf3GYZLE32EE';  // Replace with your User ID from EmailJS
+    const serviceID = 'service_una1dxn';  // Replace with your Service ID from EmailJS
+    const templateID = 'template_v4178vs';  // Replace with your Template ID from EmailJS
+    const userID = '8THz3yZai1WS-elbi';  // Replace with your User ID from EmailJS
 
     var fullName = event.target.firstName.value + " " + event.target.lastName.value;
     const templateParams = {
       from_name: fullName,
       reply_to: event.target._replyto.value,
       message: event.target.message.value,
-      to_email: 'seb.oliver.10@gmail.com'
+      to_email: 'contact@ikm.dev'
     };
 
     emailjs.send(serviceID, templateID, templateParams, userID)
