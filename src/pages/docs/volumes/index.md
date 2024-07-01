@@ -32,6 +32,12 @@ Volume 2 provides background context on the efforts since 2015 to enhance the in
 Volume 3 emphasizes the role of IKM in enhancing healthcare data management, particularly in overcoming challenges surrounding data loss and misinterpretation. It highlights the need for integrated terminology standards and collaboration across the healthcare system to improve data interoperability, data quality, and ultimately patient safety. This volume explores how a unified representation model would facilitate better patient outcomes and effective data analysis.
 <p></p>
 
+### Volume 4: Tinkar Ballot
+<a href="/Volume-4.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+<br></br>
+Volume 4 provides an overview of Terminology Knowledge Architecture (Tinkar), focusing on its role in harmonizing biomedical terminologies like SNOMED CT®, LOINC®, and RxNorm within healthcare IT systems. It highlights the importance of standardization for interoperability and efficient data exchange, presenting Tinkar's logical framework as a solution to the complexities of integrating and managing diverse terminologies to support seamless health information exchange.
+<p></p>
+
 ### Volume 5: Terminology Knowledge
 <a href="/Volume-5.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 <br></br>
@@ -56,9 +62,55 @@ This section reviews the importance of safety systems in clinical laboratories, 
 
 <br></br>
 Volume 8 serves as a user guide for Komet and outlines the steps for downloading, installing, and starting the contributed application. It covers importing and reading-in data, searching concepts using both the Komet and Journal interfaces, distinguishing concept versions and history, editing and modifying data, exporting and sharing data, and viewing concept timeline properties.
+<p></p>
 
-### Volume 9: Open Source Overview
+### Volume 9: Open Source and Ecosystem
 <a href="/Volume-9.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
-This section describes open-source software in healthcare IT, highlighting its role in fostering community collaboration and decentralized development. It emphasizes open-source's importance for enhancing interoperability and adaptability in healthcare technology, advocating for permissive licensing to facilitate widespread use, modification, and distribution of software, thereby improving system compatibility and knowledge sharing.
+Volume 9 focuses on the significance of open-source software within the tech ecosystem, spotlighting the collaborative, community-driven development model. It emphasizes the benefits of open-source for enhancing interoperability, community testing, and overcoming proprietary barriers, particularly in healthcare IT. This volume guides users on engaging with open-source projects and adopting open-source licensing models to foster innovation and flexibility in software development.
+<p></p>
+
+### Volume 11: Healthcare Data Management
+<a href="/Volume-11.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 11 highlights the significance of Healthcare Data Management, focusing on integrating diverse data sources to enhance patient care. It introduces Integrated Knowledge Management (IKM) to improve system interoperability and addresses challenges in mental health data privacy, the integration of electronic health records, and the role of data analytics in population health management. This volume offers insights into leveraging advanced data management strategies for improved healthcare outcomes.
+<p></p>
+
+### Volume 12: Healthcare Quality Improvement
+<a href="/Volume-12.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 12 showcases the transformative role of Integrated Knowledge Management (IKM) and Terminology Knowledge Architecture (Tinkar) in healthcare quality improvement. It emphasizes their impact on standardizing terminology, enhancing decision-making, and supporting evidence-based practices to improve patient outcomes and operational efficiency. This volume advocates for the integration of IKM and Tinkar to address challenges in healthcare quality and equity through better data management.
+<p></p>
+
+### Volume 16: IKM and Emergency Disaster Response
+<a href="/Volume-16.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+ Volume 16 focuses on emergency disaster response. It covers various aspects of emergency preparedness, including the definition of emergency disasters, the landscape of emergency management in the United States, examples of knowledge management in emergency response, and the role of IKM in emergency response. The document also discusses the COVID-19 pandemic and its impact on emergency response, particularly in terms of data interoperability and the use of artificial intelligence. The conclusion emphasizes the importance of adopting IKM in emergency response to improve decision-making and overall response effectiveness.
+<p></p>
+
+
+### Volume 17: IKM Return on Investment
+<a href="/Volume-17.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 17 provides information on the return on investment (ROI) of implementing IKM in healthcare organizations. The document highlights the benefits of IKM, including improved interoperability, data accuracy, decision-making capabilities, operational efficiency, and compliance. It also presents value propositions for C-suite executives, such as strategic advantage, financial incentives, and fostering innovation. The document emphasizes the importance of assessing organizational readiness, strategic planning, and learning from case studies when implementing IKM
+<p></p>
+
+
+
+<br></br>
+<br></br>
+<br></br>
+
+### Appendix
+<a href="/Appendix.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+The Appendix section list terms and definitions for quick, convenient access.
+
+
+<!-- add appendix here -->

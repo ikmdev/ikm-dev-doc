@@ -11,7 +11,7 @@ jobs:
     steps:
       - id: build-site
         name: Build Site with Code Quality
-        uses: ikmdev/yarn-code-quality-build-action@main
+        uses: ikmdev/yarn-code-quality-build-action@1.0.0
       - id: deploy-site
         name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

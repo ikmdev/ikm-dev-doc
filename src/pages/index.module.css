@@ -146,23 +146,14 @@
   background-attachment: fixed;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
   }
-
-  .featureBanner {
-    width: 80%;
-  }
-
-  .applicationBannerContainer {
-    flex-direction: column-reverse;
-  }
-
 }
+
 
 .buttons {
   display: flex;
   justify-content: right;
 }
-

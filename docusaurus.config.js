@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Komet',
-  tagline: 'Bringing Integrated Knowledge Management to Life',
+  title: 'Integrated Knowledge Management',
   url: 'https://fantastic-giggle-e60e5e9a.pages.github.io', //TODO: Replace with appropriate URL
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -65,79 +64,175 @@ const config = {
         indexName: 'ikm',
       },
       navbar: {
-        title: 'Komet',
+        title: 'IKM',
         logo: {
           alt: 'Komet Logo',
           src: 'img/komet_logo.svg',
         },
         items: [
           {
-            to: '/about',
+            type: 'dropdown',
             label: 'About',
-            position: 'left'
+            position: 'left',
+            items: [
+              {label: 'Integrated Knowledge Management', to: '/about/ikm'},
+             {label: 'Komet Tool', to: '/about/komet'}
+            ],
           },
           
           {
-            to: '/install',
+            type: 'dropdown',
             label: 'Install',
-            position: 'left'
+            position: 'left',
+            items: [
+              // {
+              //   label: 'Install Komet',
+              //   to: '/install/app', 
+              // },
+              {
+                label: 'Komet User Guide',
+                to: '/install/guide', 
+              },
+            ]
+            
           },
           {
-            to: '/community',
+            type: 'dropdown',
             label: 'Community',
-            position: 'left'
+            position: 'left',
+            items: [
+              {
+                label: 'Get Started',
+                to: '/community/getstarted',
+              },
+              {
+                label: 'Developers',
+                to: '/community/developers', 
+              },
+              {
+                label: 'Informaticists',
+                to: '/community/informaticists', 
+              },
+              {
+                label: 'Code of Conduct',
+                to: '/codeofconduct',
+              },
+            ],
           },
           {
-            to: '/docs',
+            type: 'dropdown',
             label: 'Resource Library',
-            position: 'left'
+            position: 'left',
+            items: [
+              {
+                label: 'Volumes',
+                to: '/docs/volumes',
+              },
+              {
+                label: 'Additional Documents',
+                to: '/docs/additional', 
+              },
+              {
+                label: 'FAQ',
+                to: '/faq', 
+              },
+            ],
           },
-          // {
-          //   to: '/contact',
-          //   label: 'Contact Us',
-          //   position: 'left'
-          // },
-          
+          {
+            to: '/contact',
+            label: 'Contact Us',
+            position: 'right',
+          },
         ],
       },
+
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true
       },
+
       footer: {
         style: 'dark',
         links: [
           {
-            title: ' ',
+            title: 'About',
             items: [
               {
-                label: 'About',
-                to: '/about'
+                label: 'Integrated Knowledge Management',
+                to: '/about/ikm', 
               },
               {
-                label: 'Install',
-                to: '/install',
+                label: 'Komet Tool',
+                to: '/about/komet', 
               },
-              {
-                label: 'Community',
-                to: '/community',
-              },
-              {
-                label: 'Resource Library',
-                to: '/docs',
-              },
-
-              
+            ],
+          },
+          {
+            title: 'Install',
+            items: [
               // {
-              //   to: '/contact',
-              //   label: 'Contact Us',
-              //   position: 'left'
+              //   label: 'Install Komet',
+              //   to: '/install/app', 
               // },
+              {
+                label: 'Komet User Guide',
+                to: '/install/guide', 
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Get Started',
+                to: '/community/getstarted', 
+              },
+              {
+                label: 'Developers',
+                to: '/community/developers', 
+              },
+              {
+                label: 'Informaticists', 
+                to: '/community/informaticists', 
+              },
+              {
+                label: 'Code of Conduct',
+                to: '/codeofconduct',
+              },
+              
+            ],
+          },
+          
+          {
+            title: 'Resource Library',
+            items: [
+              {
+                label: 'Volumes',
+                to: '/docs/volumes',
+              },
+              {
+                label: 'Additional Documents',
+                to: '/docs/additional', 
+              },
+              {
+                label: 'FAQ',
+                to: '/faq', 
+              },
+            ],
+          },
+          {
+            title: 'Contact Us',
+            items: [
+              {
+                label: 'Contact Form',
+                to: '/contact', // Update this with the correct path
+              },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()}`,
       },
+      
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

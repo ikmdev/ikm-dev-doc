@@ -11,4 +11,4 @@ jobs:
     steps:
       - id: build-site
         name: Build Site with Code Quality
-        uses: actions/yarn-code-quality-build-action@main
+        uses: ikmdev/yarn-code-quality-build-action@1.0.0

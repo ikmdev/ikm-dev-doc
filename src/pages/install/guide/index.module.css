@@ -1,0 +1,31 @@
+/* Ensures text and images are well-spaced and legible */
+.textContent {
+    padding: 0 1rem; /* Adds padding around text for smaller screens */
+  }
+  
+  .imageContainer {
+    text-align: center; /* Center-align images */
+    margin: 20px 0; /* Adds margin above and below images */
+  }
+  
+  .imageContainer img {
+    max-width: 100%; /* Makes image width responsive */
+    height: auto; /* Maintains aspect ratio */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+  }
+  
+  /* Desktop devices */
+  @media (min-width: 769px) {
+    .imageContainer img {
+      width: auto; /* Auto width to maintain aspect ratio */
+      max-width: 500px; /* Max width for larger screens */
+    }
+  }
+  
+  /* Mobile devices */
+  @media (max-width: 768px) {
+    .imageContainer img {
+      max-width: 250px; /* Smaller max width for mobile devices */
+    }
+  }
+  
