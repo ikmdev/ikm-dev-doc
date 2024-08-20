@@ -4,6 +4,10 @@ This is the repository that drives the website at [ikm.dev](https://www.ikm.dev)
 be the development documentation site, defining installation, usage, and enterprise integration of the products
 for Komet.  This website is built using [Docusaurus 2](https://docusaurus.io/).
 
+### Team Ownership - Product Owner
+Automation Team, authored by Tinkar Engineering Team.
+Oliver, Sebastian <seoliver@deloitte.com>
+
 ## Running the app
 
 ### Prerequisites
