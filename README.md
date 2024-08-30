@@ -123,3 +123,9 @@ that can subsequently deploy the image to Kubernetes.
 [1]: <https://medium.com/shell-life/convert-images-for-web-using-the-sips-command-line-on-macosx-656c502a67a6>
 [2]: <https://ss64.com/osx/sips.html>
 [3]: <https://www.mend.io/free-developer-tools/blog/yarn-update/>
+
+## Issues and Contributions
+
+Technical and non-technical issues can be reported to the GitHub Issue Tracker.
+
+Contributions can be submitted via pull requests. Please check the [contribution guide](docs/how-to-contribute.md) for more details.
