@@ -64,12 +64,20 @@ This section reviews the importance of safety systems in clinical laboratories, 
 Volume 8 serves as a user guide for Komet and outlines the steps for downloading, installing, and starting the contributed application. It covers importing and reading-in data, searching concepts using both the Komet and Journal interfaces, distinguishing concept versions and history, editing and modifying data, exporting and sharing data, and viewing concept timeline properties.
 <p></p>
 
-### Volume 9: Open Source and Ecosystem
+### Volume 9: Wisdom of Crowds
 <a href="/Volume-9.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
 Volume 9 focuses on the significance of open-source software within the tech ecosystem, spotlighting the collaborative, community-driven development model. It emphasizes the benefits of open-source for enhancing interoperability, community testing, and overcoming proprietary barriers, particularly in healthcare IT. This volume guides users on engaging with open-source projects and adopting open-source licensing models to foster innovation and flexibility in software development.
 <p></p>
+
+### Volume 10: Patient Data Privacy
+<a href="/Volume-10.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 10 highlights a critical component of healthcare, ensuring the confidentiality and integrity of patients' personal health information (PHI) while simultaneously supporting their ability to access their own data. Patient data privacy is protected by general medical ethics and laws, such as HIPAA in the U.S. and is needed to ensure patients are comfortable sharing vital health information with the various groups involved in the delivery of care. Although IKM, and other entities like SNOMED CT® and LOINC®, do not directly handle patient data, they play a critical role in data privacy through standardized data management practices.
+<p></p>
+
 
 ### Volume 11: Healthcare Data Management
 <a href="/Volume-11.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
@@ -85,22 +93,37 @@ Volume 11 highlights the significance of Healthcare Data Management, focusing on
 Volume 12 showcases the transformative role of Integrated Knowledge Management (IKM) and Terminology Knowledge Architecture (Tinkar) in healthcare quality improvement. It emphasizes their impact on standardizing terminology, enhancing decision-making, and supporting evidence-based practices to improve patient outcomes and operational efficiency. This volume advocates for the integration of IKM and Tinkar to address challenges in healthcare quality and equity through better data management.
 <p></p>
 
-### Volume 16: IKM and Emergency Disaster Response
+### Volume 13: Global Health and International Collaboration
+<a href="/Volume-13.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 13 provides a brief history of global health initiatives before touching on the current landscape of international health organizations, the roles they play, and the challenges they face. The volume goes on to note how the COVID-19 pandemic underscored the need for improved data by highlighting key issues, such as data diversity, resource allocation, and evolving technologies, and lessons learned that can help drive potential improvements.
+<p></p>
+
+### Volume 14: Emergency Preparedness
+<a href="/Volume-14.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 14 provides information on emergency disaster response in regards to four different categories
+of disaster: natural disasters, public health crises, acts of terrorism and radiation and chemical
+emergencies.
+<p></p>
+
+
+### Volume 15: IKM Return on Investment
+<a href="/Volume-15.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
+
+<br></br>
+Volume 15 provides information on the return on investment (ROI) of implementing IKM in healthcare organizations. The document highlights the benefits of IKM, including improved interoperability, data accuracy, decision-making capabilities, operational efficiency, and compliance. It also presents value propositions for C-suite executives, such as strategic advantage, financial incentives, and fostering innovation. The document emphasizes the importance of assessing organizational readiness, strategic planning, and learning from case studies when implementing IKM
+<p></p>
+
+
+### Volume 16: Temporal Relationships
 <a href="/Volume-16.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
- Volume 16 focuses on emergency disaster response. It covers various aspects of emergency preparedness, including the definition of emergency disasters, the landscape of emergency management in the United States, examples of knowledge management in emergency response, and the role of IKM in emergency response. The document also discusses the COVID-19 pandemic and its impact on emergency response, particularly in terms of data interoperability and the use of artificial intelligence. The conclusion emphasizes the importance of adopting IKM in emergency response to improve decision-making and overall response effectiveness.
+Volume 16 covers temporal relationships in healthcare, which describe how events are related over time. By understanding this critical component of health data, we can positively impact patient outcomes, enable more accurate data interpretation, and personalize treatment plans. By integrating temporal data, healthcare systems can develop advanced decision support tools, reduce medical errors, optimize treatment protocols, and feed into predictive modeling and AI applications, further aiding in proactive care management. This volume offers both a basic introduction to temporal relationships and a more advanced deep dive for computer scientists, data scientists, and more.
 <p></p>
-
-
-### Volume 17: IKM Return on Investment
-<a href="/Volume-17.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
-
-<br></br>
-Volume 17 provides information on the return on investment (ROI) of implementing IKM in healthcare organizations. The document highlights the benefits of IKM, including improved interoperability, data accuracy, decision-making capabilities, operational efficiency, and compliance. It also presents value propositions for C-suite executives, such as strategic advantage, financial incentives, and fostering innovation. The document emphasizes the importance of assessing organizational readiness, strategic planning, and learning from case studies when implementing IKM
-<p></p>
-
-
 
 <br></br>
 <br></br>
