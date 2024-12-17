@@ -37,12 +37,15 @@ Follow these streamlined steps to import data into Komet:
 
 <div style={{ backgroundColor: '#fff0f5', padding: '15px', borderLeft: '5px solid #db7093', marginBottom: '20px' }}>
   <ol>
-    <li><strong>Prepare Data Location:</strong> Move the data zip file to the appropriate directory:
-      <ul>
-        <li>Windows: <code>OSDisk (C:) -> Users -> [your username] -> Solor</code></li>
-        <li>Mac: <code>Users > [your username] > Solor</code></li>
-      </ul>
-      <em>Note: Create a 'Solor' folder if it doesn't exist.</em>
+    <li>
+      <p>
+        <strong>Prepare Data Location:</strong> Move the data zip file to the appropriate directory:
+        <ul>
+          <li>Windows: <code>OSDisk (C:) -> Users -> [your username] -> Solor</code></li>
+          <li>Mac: <code>Users > [your username] > Solor</code></li>
+        </ul>
+        <em>Note: Create a 'Solor' folder if it doesn't exist.</em>
+      </p>
     </li>
     <li><strong>Extract Data:</strong> Unzip and extract the data in the Solor folder.</li>
     <li><strong>Restart Komet:</strong> Relaunch Komet and set “Open SpinedArrayStore” as the data source.</li>

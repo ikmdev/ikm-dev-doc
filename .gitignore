@@ -24,3 +24,10 @@ package.json.lock
 _push.sh
 _build.sh
 .yarn
+
+# IntelliJ
+.idea
+
+# Eclipse
+.project
+
