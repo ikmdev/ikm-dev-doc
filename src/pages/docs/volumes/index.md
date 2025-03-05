@@ -93,12 +93,14 @@ Volume 11 highlights the significance of Healthcare Data Management, focusing on
 Volume 12 showcases the transformative role of Integrated Knowledge Management (IKM) and Terminology Knowledge Architecture (Tinkar) in healthcare quality improvement. It emphasizes their impact on standardizing terminology, enhancing decision-making, and supporting evidence-based practices to improve patient outcomes and operational efficiency. This volume advocates for the integration of IKM and Tinkar to address challenges in healthcare quality and equity through better data management.
 <p></p>
 
+<!--
 ### Volume 13: Global Health and International Collaboration
 <a href="/Volume-13.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
 
 <br></br>
 Volume 13 provides a brief history of global health initiatives before touching on the current landscape of international health organizations, the roles they play, and the challenges they face. The volume goes on to note how the COVID-19 pandemic underscored the need for improved data by highlighting key issues, such as data diversity, resource allocation, and evolving technologies, and lessons learned that can help drive potential improvements.
 <p></p>
+-->
 
 ### Volume 14: Emergency Preparedness
 <a href="/Volume-14.pdf" target="_blank" class={styles.pdfLink}> PDF Version 📁 </a>
